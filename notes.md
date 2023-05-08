@@ -15,4 +15,4 @@
 
 ### HTML Learned
 - href for hyperlinks
-- <br> at the end of a line in a paragraph for a new line
+- `<br>` at the end of a line in a paragraph for a new line
