@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <style>
+    textarea{
+        vertical-align: top;
+    }
+  </style>
   <head>
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
@@ -16,6 +21,25 @@
         <h1>Create New Group</h1>
         <hr />
     </header>
+
+    <!-- Create Group Options -->
+    <li>
+        <label for="groupName">Group Name:</label>
+        <input type="text" id="groupname" name="varGroupName" placeholder="name of group"/>
+    </li>
+    <li>
+        <label for="groupdescription">Group Description:</label>
+        <textarea rows="5" id="grpdesc" name="varGrpDesc" placeholder="group description"></textarea>
+    </li>
+    <li>
+        <label for="password">Group Password: </label>
+        <input type="password" id="newgrppassword" name="varNewGrpPassword" placeholder="password"/>
+    </li>
+
+    <!-- Button to Create Group -->
+    <div>
+        <button type="login">Create Group</button>
+    </div> 
 
     <footer>
         <hr />
