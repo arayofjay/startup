@@ -4,15 +4,37 @@
     <meta charset="UTF-8" />
     <!-- Tell browsers not to scale the viewport automatically -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Let's Go! - HTML</title>
+    <title>Let's Go! - Join Group</title>
     <link rel="icon" href="favicon.ico" />
   </head>
 
   <body>
     <header>
-        <h1>Login</h1>
+        <nav>
+            <div><a href="index.html">back</a></div>
+        </nav>
+        <h1>Join Group</h1>
         <hr />
     </header>
+
+    <!-- Join Group Options -->
+    <li>
+        <label for="joinGroup">Group Name:</label>
+        <input type="text" id="joinGroup" name="varJoinGroup" placeholder="name of group"/>
+    </li>
+    <li>
+        <label for="grpDispName">Join As:</label>
+        <input type="text" id="grpDispName" name="varGrpDispName" placeholder="your alias"/>
+    </li>
+    <li>
+        <label for="password">Group Password: </label>
+        <input type="password" id="grppassword" name="varGrpPassword" placeholder="password"/>
+    </li>
+
+    <!-- Button to join group -->
+    <div>
+        <button type="login">Join</button>
+    </div>
 
     <footer>
         <hr />
