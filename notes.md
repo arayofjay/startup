@@ -10,9 +10,11 @@
 ## HTML
 ### HTML Questions
 - When is it needed to close the `<d></d>` vs `<d blah blah>`?
+   - the blah blah in the above line is an element but with ATTRIBUTES, and the attributes are what go before the first tag's close
 - Do all hyperlinks have to be in an anchor element? Can we embed hyperlinks in other elements
 - Difference between aside and section?
 
 ### HTML Learned
 - href for hyperlinks
 - `<br>` at the end of a line in a paragraph for a new line
+- the `span` element will only take up as much space on the webpage that the content needs
