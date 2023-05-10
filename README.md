@@ -5,7 +5,7 @@ CS 260 startup project
 
 ### Elevator pitch
 
-I have always been the friend in a group that has to plan hang outs, movie night, or any group activity. But it is always a hassle to get everyone on the same page. I usually have to text people individually to get their availabilit, or I would have to use a calendar like Outlook or Google, but honestly that stuff is already just cluttered with school or work things. So my app, Let's Go!, is a calendar app that simplifies the process of making plans and inviting people to them. This makes making plans hassle free, and with it, you will have a calendar full of fun for you and all your friends.
+I have always been the friend in a group that has to plan hang outs, movie night, or any group activity. But it is always a hassle to get everyone on the same page. I usually have to text people individually to get their availabilit, or I would have to use a calendar like Outlook or Google, but honestly that stuff is already just cluttered with school or work things. So my app, Let's Go!, is a calendar app that simplifies the process of making plans and inviting people to them. This makes making plans hassle free, and with it, you will have a calendar full of fun for you and all your friends and family at just a push of a button.
 
 ### Design
 
