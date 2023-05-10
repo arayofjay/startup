@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Tell browsers not to scale the viewport automatically -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Let's Go! - HTML</title>
+    <link rel="icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+        <nav>
+            <div><a href="index.html">back</a></div>
+        </nav>
+
+        <!-- Button to delete event -->
+        <div>
+            <button type="submit">Delete</button>
+        </div>
+
+        <h2>Event Details</h2>
+        <hr />
+    </header>
+
+    <!-- Application data placeholder -->
+    <p>
+        Application Data for Events here. <br/>
+        This includes:
+        <li>Event name</li>
+        <li>Event description</li>
+        <li>start and end dates</li>
+    </p>
+
+    <!-- event details status -->
+    <div>
+        <label for="status">Group: </label>
+        <select id="status" name="varStatus">
+            <option selected>Going</option>
+            <option>Maybe</option>
+            <option>Not Going</option>
+        </select>
+    </div>
+
+    <!-- Button to update status -->
+    <div>
+        <button type="submit">Update</button>
+    </div>
+
+    <footer>
+        <hr />
+        <span class="text-reset">Jon Rodriguez</span>
+        <br />
+        <a href="https://github.com/arayofjay/startup">GitHub</a>
+    </footer>
+  </body>
+</html>
