@@ -35,7 +35,7 @@ Here are the other screens I plan to implement with the application, from settin
 
 I am using the following required technologies and method in order to implement the application:
 
-- **HTML** - Uses correct HTML structure for application. Two HTML pages. One for login and one for voting. Hyperlinks to choice artifact.
+- **HTML** - Uses correct HTML structure for application. Will need at least 5 HTML pages for certain parts of the application. Namely viewing the calendar, event details, group details, login screen, settings menu, etc.
 - **CSS** - Application styling that looks good on different screen sizes, uses good whitespace, color choice and contrast.
 - **JavaScript** - Provides login, event display, group display, handles user status for events, displays user status' for an event, backend endpoint calls.
 - **Service** - Backend service with endpoints for:
@@ -55,3 +55,9 @@ These are features that I have not currently planned to implement in my applicat
 
 - Application background picture that changes according to what group you are seeing events for
 - Implement a way that the application will send SMS notifications instead of just app notifications
+
+## HTML Deliverable
+
+## CSS Deliverable
+
+## JavaScript Deliverable
