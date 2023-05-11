@@ -18,3 +18,17 @@
 - href for hyperlinks
 - `<br>` at the end of a line in a paragraph for a new line
 - the `span` element will only take up as much space on the webpage that the content needs
+
+## CSS
+### CSS Questions
+- couldn't figure out the padding in CSS practice for the sections
+
+### CSS Learned
+- Useful:
+  - .class
+  - #id
+  - p[attribute='']
+  - main:hover (or other commands)
+- You can use `main *` to format everything within main (children, grandchildren, etc.)
+- Use `main > *` to format only DIRECT children to main
+  - You can also do things like `main > *:not(:last-child). This formats everything that are not the last-child
