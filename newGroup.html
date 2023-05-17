@@ -33,24 +33,36 @@
 
     </header>
 
-    <main class="d-flex flex-column ms-4 mb-3">
+    <main class="d-flex flex-column ms-4 mb-3 list-unstyled">
       <!-- Create Group Options -->
-      <li>
-          <label for="groupName">Group Name:</label>
-          <input type="text" id="groupname" name="varGroupName" placeholder="name of group"/>
+      <li class="mb-2">
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label class="col-form-label">Group Name: </label>
+            </div>
+            <div class="col-auto">
+              <input type="text" class="form-control">
+            </div>
+          </div>
       </li>
-      <li>
-          <label for="groupdescription">Group Description:</label>
-          <textarea rows="5" id="grpdesc" name="varGrpDesc" placeholder="group description"></textarea>
+      <li class="mb-2">
+        <label class="mb-1">Group Description:</label>
+        <textarea class="form-outline w-25" id="eventDesc" rows="4"></textarea>
       </li>
-      <li>
-          <label for="password">Group Password: </label>
-          <input type="password" id="newgrppassword" name="varNewGrpPassword" placeholder="password"/>
+      <li class="mb-2">
+          <div class="row g-3 align-items-center">
+            <div class="col-auto">
+              <label class="col-form-label">Group Password: </label>
+            </div>
+            <div class="col-auto">
+              <input type="text" class="form-control">
+            </div>
+          </div>
       </li>
 
       <!-- Button to Create Group -->
-      <div>
-          <button type="login">Create Group</button>
+      <div class="d-flex justify-content-center border-top pt-3 border-dark">
+          <button class="btn btn-primary mb-2">Create Group</button>
       </div> 
     </main>
 
