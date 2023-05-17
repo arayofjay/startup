@@ -28,26 +28,46 @@
 
     </header>
 
-    <main class="d-flex flex-column ms-4 mb-3">
+    <main class="d-flex flex-column align-items-center ms-4 mb-3 list-unstyled">
       <!-- Join Group Options -->
-      <li>
-          <label for="joinGroup">Group Name:</label>
-          <input type="text" id="joinGroup" name="varJoinGroup" placeholder="name of group"/>
+      <li class="ms-3 mb-2">
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Group Name: </label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+      </li>
+      <li class="ps-4 mb-2">
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Display Name: </label>
+          </div>
+          <div class="col-auto">
+            <input type="text" class="form-control">
+          </div>
+        </div>
       </li>
       <li>
-          <label for="grpDispName">Join As:</label>
-          <input type="text" id="grpDispName" name="varGrpDispName" placeholder="your alias"/>
-      </li>
-      <li>
-          <label for="password">Group Password: </label>
-          <input type="password" id="grppassword" name="varGrpPassword" placeholder="password"/>
+        <div class="row g-3 align-items-center">
+          <div class="col-auto">
+            <label for="inputPassword6" class="col-form-label">Password: </label>
+          </div>
+          <div class="col-auto">
+            <input type="password" class="form-control">
+          </div>
+        </div>
       </li>
 
       <!-- Button to join group -->
-      <div>
-          <button type="login">Join</button>
+      <div class="mt-3">
+        <button class="btn btn-primary mb-2">Join</button>
       </div>
     </main>
+
+    
 
     <footer class="bg-primary bg-gradient navbar fixed-bottom d-flex flex-column align-items-end border-top">
       <span class="text-reset mt-2">Jon Rodriguez</span>
