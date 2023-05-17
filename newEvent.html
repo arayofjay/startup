@@ -33,59 +33,60 @@
 
     </header>
 
-    <!-- Create Event Options -->
-    <li>
-        <label for="eventName">Event Name:</label>
-        <input type="text" id="eventname" name="varEventName" placeholder="name of event"/>
-    </li>
-    <li>
-        <label for="eventdescription">Event Description:</label>
-        <textarea rows="5" id="eventdesc" name="varEventDesc" placeholder="event description"></textarea>
-    </li>
-    <li>
-        <label for="eventgroup">Group: </label>
+    <main class="d-flex flex-column ms-4 mb-3">
+        <!-- Create Event Options -->
+        <li>
+            <label for="eventName">Event Name:</label>
+            <input type="text" id="eventname" name="varEventName" placeholder="name of event"/>
+        </li>
+        <li>
+            <label for="eventdescription">Event Description:</label>
+            <textarea rows="5" id="eventdesc" name="varEventDesc" placeholder="event description"></textarea>
+        </li>
+        <li>
+            <label for="eventgroup">Group: </label>
+                <select id="eventgrp" name="varEventGrp">
+                    <option selected>group1</option>
+                    <option>group2</option>
+                    <option>group3</option>
+                </select>
+        </li>
+        <li>
+            <label for="startdate">Start Date: </label>
+            <input type="date" name="varStartDate" id="startdate" />
+        </li>
+        <li>
+            <label for="enddate">End Date: </label>
+            <input type="date" name="varEndDate" id="enddate" />
+        </li>
+        <li>
+            <label for="color">Color: </label>
             <select id="eventgrp" name="varEventGrp">
-                <option selected>group1</option>
-                <option>group2</option>
-                <option>group3</option>
+                <option selected>color1</option>
+                <option>color2</option>
+                <option>color3</option>
             </select>
-    </li>
-    <li>
-        <label for="startdate">Start Date: </label>
-        <input type="date" name="varStartDate" id="startdate" />
-    </li>
-    <li>
-        <label for="enddate">End Date: </label>
-        <input type="date" name="varEndDate" id="enddate" />
-    </li>
-    <li>
-        <label for="color">Color: </label>
-        <select id="eventgrp" name="varEventGrp">
-            <option selected>color1</option>
-            <option>color2</option>
-            <option>color3</option>
-        </select>
-    </li>
-    <li>
-        <label for="recurrence">Recurrence: </label>
-        <select id="eventgrp" name="varEventGrp">
-            <option>Daily</option>
-            <option selected>Weekly</option>
-            <option>Monthly</option>
-        </select>
-    </li>
+        </li>
+        <li>
+            <label for="recurrence">Recurrence: </label>
+            <select id="eventgrp" name="varEventGrp">
+                <option>Daily</option>
+                <option selected>Weekly</option>
+                <option>Monthly</option>
+            </select>
+        </li>
 
-    <!-- Button to Create Event -->
-    <div>
-        <button type="submit">Create Event</button>
-    </div> 
+        <!-- Button to Create Event -->
+        <div>
+            <button type="submit">Create Event</button>
+        </div> 
+
+    </main>
 
 
-    <footer>
-        <hr />
-        <span class="text-reset">Jon Rodriguez</span>
-        <br />
-        <a href="https://github.com/arayofjay/startup">GitHub</a>
+    <footer class="bg-primary bg-gradient navbar fixed-bottom d-flex flex-column align-items-end border-top">
+        <span class="text-reset mt-2">Jon Rodriguez</span>
+        <a href="https://github.com/arayofjay/startup" class="link-dark">GitHub</a>
     </footer>
   </body>
 </html>

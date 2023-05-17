@@ -28,30 +28,30 @@
 
     </header>
 
-    <!-- Login options -->
-    <li>
-        <!-- Includes validation-->
-        <label for="username">Username: </label>
-        <input type="text" id="username" name="varUsername" placeholder="username" />
-    </li>
-    <li>
-        <label for="password">Password: </label>
-        <input type="password" id="password" name="varPassword" placeholder="password"/>
-    </li>
-    <li>
-        <label for="text">Phone Number: </label>
-        <input type="tel" id="phonenumber" name="varPhoneNumber" placeholder="(###) ###-####" />
-    </li>
-    <div>
-        <button type="login">Login</button>
-        <button type="submit">Create User</button>
-    </div>
+    <main class="d-flex flex-column ms-4 mb-3">
+        <!-- Login options -->
+        <li>
+            <!-- Includes validation-->
+            <label for="username">Username: </label>
+            <input type="text" id="username" name="varUsername" placeholder="username" />
+        </li>
+        <li>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="varPassword" placeholder="password"/>
+        </li>
+        <li>
+            <label for="text">Phone Number: </label>
+            <input type="tel" id="phonenumber" name="varPhoneNumber" placeholder="(###) ###-####" />
+        </li>
+        <div>
+            <button type="login">Login</button>
+            <button type="submit">Create User</button>
+        </div>
+    </main>
 
-    <footer>
-        <hr />
-        <span class="text-reset">Jon Rodriguez</span>
-        <br />
-        <a href="https://github.com/arayofjay/startup">GitHub</a>
+    <footer class="bg-primary bg-gradient navbar fixed-bottom d-flex flex-column align-items-end border-top">
+        <span class="text-reset mt-2">Jon Rodriguez</span>
+        <a href="https://github.com/arayofjay/startup" class="link-dark">GitHub</a>
     </footer>
   </body>
 </html>

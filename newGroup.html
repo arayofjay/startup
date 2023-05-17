@@ -33,30 +33,30 @@
 
     </header>
 
-    <!-- Create Group Options -->
-    <li>
-        <label for="groupName">Group Name:</label>
-        <input type="text" id="groupname" name="varGroupName" placeholder="name of group"/>
-    </li>
-    <li>
-        <label for="groupdescription">Group Description:</label>
-        <textarea rows="5" id="grpdesc" name="varGrpDesc" placeholder="group description"></textarea>
-    </li>
-    <li>
-        <label for="password">Group Password: </label>
-        <input type="password" id="newgrppassword" name="varNewGrpPassword" placeholder="password"/>
-    </li>
+    <main class="d-flex flex-column ms-4 mb-3">
+      <!-- Create Group Options -->
+      <li>
+          <label for="groupName">Group Name:</label>
+          <input type="text" id="groupname" name="varGroupName" placeholder="name of group"/>
+      </li>
+      <li>
+          <label for="groupdescription">Group Description:</label>
+          <textarea rows="5" id="grpdesc" name="varGrpDesc" placeholder="group description"></textarea>
+      </li>
+      <li>
+          <label for="password">Group Password: </label>
+          <input type="password" id="newgrppassword" name="varNewGrpPassword" placeholder="password"/>
+      </li>
 
-    <!-- Button to Create Group -->
-    <div>
-        <button type="login">Create Group</button>
-    </div> 
+      <!-- Button to Create Group -->
+      <div>
+          <button type="login">Create Group</button>
+      </div> 
+    </main>
 
-    <footer>
-        <hr />
-        <span class="text-reset">Jon Rodriguez</span>
-        <br />
-        <a href="https://github.com/arayofjay/startup">GitHub</a>
+    <footer class="bg-primary bg-gradient navbar fixed-bottom d-flex flex-column align-items-end border-top">
+      <span class="text-reset mt-2">Jon Rodriguez</span>
+      <a href="https://github.com/arayofjay/startup" class="link-dark">GitHub</a>
     </footer>
   </body>
 </html>
