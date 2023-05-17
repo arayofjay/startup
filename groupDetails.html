@@ -28,26 +28,29 @@
         
     </header>
       <main class="d-flex flex-column ms-4 mb-3">
-        <!-- Application data placeholder -->
         <p>
-            Application Data for Group here. <br/>
-            This includes:
+          Application Data for Group here. <br/>
+          This includes:
+        </p>
+        <!-- Application data placeholder -->
+        <u1 class="list-unstyled mb-3">
             <li>Group name</li>
             <li>Group description</li>
             <li>Group members names</li>
-        </p>
+        </u1>
 
         <!-- Add member option -->
-        <li>
-            <label for="memnumber">Member Number: </label>
-            <input type="tel" id="memnumber" name="varMemNumber" placeholder="(###) ###-####" />
-        </li>
+        <p>Member Options:</p>
+        <div class="form-outline mb-4" style="width: 100%; max-width: 22rem">
+          <label class="form-label" for="phone">Member Phone number</label>
+          <input type="text" id="phone" class="form-control" data-mdb-input-mask="+1 999-999-9999" />
+        </div>
 
         <!-- Buttons to add or remove new group member -->
         <div>
-            <button type="submit">Add</button>
-            <button type="submit">Remove</button>
-            <button type="submit">Delete</button>
+            <button class="btn btn-primary mb-2">Add</button>
+            <button class="btn btn-primary mb-2">Remove</button>
+            <button class="btn btn-primary mb-2">Delete</button>
         </div>
       </main>
         
