@@ -3,6 +3,7 @@
   <style>
     textarea{
         vertical-align: top;
+        resize: none;
     }
   </style>
   <head>
@@ -26,10 +27,10 @@
         <nav>
             <div><a href="index.html" class="link-dark">back</a></div>
         </nav>
-        <h1>Create New Group</h1>
+        <h1 class="display-5">Create New Group</h1>
 
         <!-- Display current user -->
-        <p>username</p>
+        <p class="mb-0">username</p>
 
     </header>
 
@@ -60,15 +61,16 @@
           </div>
       </li>
 
-      <!-- Button to Create Group -->
-      <div class="d-flex justify-content-center border-top pt-3 border-dark">
-          <button class="btn btn-primary mb-2">Create Group</button>
-      </div> 
+
     </main>
 
+    <!-- Button to Create Group -->
+    <div class="d-flex justify-content-center border-top pt-3 border-dark">
+      <button class="btn btn-primary mb-2">Create Group</button>
+    </div> 
+
     <footer class="bg-primary bg-gradient footer fixed-bottom d-flex flex-column align-items-end border-top">
-      <span class="text-reset mt-2">Jon Rodriguez</span>
-      <a href="https://github.com/arayofjay/startup" class="link-dark">GitHub</a>
+      <p class="text-reset pt-3 pe-2">Made by Jon Rodriguez |&nbsp;<span><a href="https://github.com/arayofjay/startup" class="link-dark">GitHub</a></span></p>
     </footer>
   </body>
 </html>
