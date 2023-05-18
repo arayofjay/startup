@@ -59,6 +59,23 @@ These are features that I have not currently planned to implement in my applicat
 
 ## HTML Deliverable
 
+- **HTML pages** - Added 8 pages for each part of the web application (settings, login, calendar, etc)
+- **Links** - Pages link together in meaningful way, and everything links backs to the home page as well
+- **Text** - Text for buttons, text inputs, and header/footers
+- **Images** - Using an image as a placholder, but will not be in final application
+- **Login** - Login page set, and text inputs areas set
+- **Database** - Haven't attached any DB to application
+- **WebSocket** - Haven't done any Websocket programming yet
+
 ## CSS Deliverable
+
+For this deliverable, I added CSS for these parts of my application:
+
+- **Header, footer, and main content body** - Consistent formatting, colors, and functionality
+- **Navigation elements** - Better styling for buttons, switches, and text input areas. Also, formatted these elements on the page in a more organized way.
+- **Responsive to window resizing** - Able to resize the window without making any content inaccessible.
+- **Application elements** - Have everything except the Calendar itself. Still need to fix that, or just make it into an accordian style dropdown list with the different events instead.
+- **Application text content** - Consistent fonts, but may need to change some of the header texts to make it look better. Also need to change footer text formatting
+- **Application images** - I have an image, but just as a placeholder, so I do not feel the need to really do anything with it.
 
 ## JavaScript Deliverable
