@@ -32,3 +32,10 @@
 - You can use `main *` to format everything within main (children, grandchildren, etc.)
 - Use `main > *` to format only DIRECT children to main
   - You can also do things like `main > *:not(:last-child). This formats everything that are not the last-child
+
+## JavaScript
+### JS Questions
+- Still don't really get promises. I mean I feel like I get how they function, but just not sure about the pizza thing
+- I really don't get the await and async stuff. When do I use async? 
+
+### JS Learned
