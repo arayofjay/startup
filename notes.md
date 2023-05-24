@@ -33,6 +33,9 @@
 - Use `main > *` to format only DIRECT children to main
   - You can also do things like `main > *:not(:last-child). This formats everything that are not the last-child
 
+- **Boostrap Notes**
+  - Need to include
+
 ## JavaScript
 ### JS Questions
 - Still don't really get promises. I mean I feel like I get how they function, but just not sure about the pizza thing
