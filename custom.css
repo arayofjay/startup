@@ -1,0 +1,30 @@
+/* custom.css */
+
+.bg-primary-custom {
+    background-color: #1870c1; 
+}
+
+.bg-secondary-custom {
+    background-color: #4a4a4a; 
+}
+
+/* Dropdown settings */
+.dropdown-menu {
+    background-color: #2b2e32;
+}
+.dropdown-menu > li > a{
+    color: rgb(185, 183, 183);
+}
+
+/* .btn-primary {
+    background-color: #037a11;
+} */
+
+
+/* .accordion-button {
+    background-color: #037a11;
+} */
+
+/* .accordion-body {
+    background-color: primary;
+} */
