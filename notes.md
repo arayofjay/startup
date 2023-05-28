@@ -42,3 +42,7 @@
 - I really don't get the await and async stuff. When do I use async? 
 
 ### JS Learned
+
+## Midterm Review
+- DOM textContent property - sets child text for an element
+- To point to another DNS record - CNAME
