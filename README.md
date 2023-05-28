@@ -79,3 +79,7 @@ For this deliverable, I added CSS for these parts of my application:
 - **Application images** - I have an image, but just as a placeholder, so I do not feel the need to really do anything with it.
 
 ## JavaScript Deliverable
+
+- **Login** - Added functionality to login page. After logging in, it takes you back to main page and displays username
+- **Storage** - JavaScript adds and stores passwords, tel numbers
+- **Future database** = Javascript adds and stores events and groups for later use
