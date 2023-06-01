@@ -1,12 +1,16 @@
 function newGroup() {
     const groupNameE1 = document.querySelector("#groupName");
-    localStorage.setItem("groupName", groupNameE1.value);
 
     const groupDescE1 = document.querySelector("#groupDesc");
-    localStorage.setItem("groupDesc", groupDescE1.value);
 
     const groupPassE1 = document.querySelector("#groupPass");
-    localStorage.setItem("groupPass", groupPassE1.value);
+
+    const Group = {
+      name: groupNameE1.value,
+      description: groupDescE1.value,
+      password: groupPassE1.value
+    }
+    localStorage.setItem("Group", JSON.stringify(Group));
 
     window.location.href = "index.html";
   }

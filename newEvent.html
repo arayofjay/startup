@@ -50,16 +50,13 @@
             <textarea class="form-outline w-25" id="eventDesc" rows="4"></textarea>
         </li>
         <li class="mb-2">
-            <div class="dropdown" data-bs-theme="dark">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  Select Group
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Group1</a></li>
-                  <li><a class="dropdown-item" href="#">Group2</a></li>
-                  <li><a class="dropdown-item" href="#">Group3</a></li>
-                </ul>
-            </div>
+          <label for="groupSelect">Select Group: </label>
+          <select class="btn btn-primary" id="groupSelect">
+            <option selected disabled>-- Select Group --</option>
+            <option>Group1</option>
+            <option>Group2</option>
+            <option>Group3</option>
+          </select>
         </li>
         <li class="mb-2">
             <label for="startdate">Start Date: </label>
@@ -76,16 +73,13 @@
             </div>
         </li>
         <li class="mb-2">
-            <div class="dropdown">
-                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-                  Recurrence
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                  <li><a class="dropdown-item" href="#">Daily</a></li>
-                  <li><a class="dropdown-item" href="#">Weekly</a></li>
-                  <li><a class="dropdown-item" href="#">None</a></li>
-                </ul>
-            </div>
+            <label for="groupSelect">Select Recurrence: </label>
+            <select class="btn btn-primary" id="recurrSelect">
+              <option selected disabled>-- Select Reccurence --</option>
+              <option>Daily</option>
+              <option>Weekly</option>
+              <option>Monthly</option>
+            </select>
         </li>
 
     </main>

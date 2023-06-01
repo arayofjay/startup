@@ -1,18 +1,29 @@
 function newEvent() {
     const eventNameE1 = document.querySelector("#eventName");
-    localStorage.setItem("eventName", eventNameE1.value);
 
     const eventDescE1 = document.querySelector("#eventDesc");
-    localStorage.setItem("eventDesc", eventDescE1.value);
+
+    const groupSelectE1 = document.querySelector('#groupSelect option:checked');
 
     const startDateE1 = document.querySelector("#startDate");
-    localStorage.setItem("startDate", startDateE1.value);
 
     const endDateE1 = document.querySelector("#endDate");
-    localStorage.setItem("endDate", endDateE1.value);
 
     const eventColorE1 = document.querySelector("#eventColor");
-    localStorage.setItem("eventColor", eventColorE1.value);
+
+    const recurrSelectE1 = document.querySelector('#recurrSelect option:checked');
+
+    const Event = {
+      name: eventNameE1.value,
+      description:eventDescE1.value,
+      group: groupSelectE1.value,
+      startdate: startDateE1.value,
+      enddate: endDateE1.value,
+      color: eventColorE1.value,
+      recurrence: recurrSelectE1.value
+    }
+
+    localStorage.setItem("Event", JSON.stringify(Event));
 
     window.location.href = "index.html";
   }

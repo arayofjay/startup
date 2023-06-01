@@ -13,3 +13,14 @@ class App {
 }
 
 const app = new App();
+
+function loadGroups() {
+    console.table(localStorage.getItem("Group"));
+}
+
+function loadEvents() {
+    console.table(localStorage.getItem("Event"));
+}
+
+loadGroups();
+loadEvents();
