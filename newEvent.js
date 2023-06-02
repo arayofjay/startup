@@ -23,7 +23,25 @@ function newEvent() {
       recurrence: recurrSelectE1.value
     }
 
-    localStorage.setItem("Event", JSON.stringify(Event));
+    let events = [];
+    const allEvents = localStorage.getItem("events");
 
-    window.location.href = "index.html";
+    if (allEvents) {
+      events = JSON.parse(allEvents);
+    }
+
+    console.table(events);
+
+    // updateEvents(groupSelectE1, Event, events);
+
+    // localStorage.setItem("events", JSON.stringify(events));
+
+    // window.location.href = "index.html";
+  }
+
+  function updateEvents(group, event, events) {
+
+    events.push(event);
+
+    return events;
   }
