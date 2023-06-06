@@ -30,13 +30,11 @@ function newEvent() {
       events = JSON.parse(allEvents);
     }
 
-    console.table(events);
+    events = updateEvents(groupSelectE1, Event, events);
 
-    // updateEvents(groupSelectE1, Event, events);
+    localStorage.setItem("events", JSON.stringify(events));
 
-    // localStorage.setItem("events", JSON.stringify(events));
-
-    // window.location.href = "index.html";
+    window.location.href = "index.html";
   }
 
   function updateEvents(group, event, events) {

@@ -40,41 +40,21 @@
 
       <!-- Calendar Placeholder -->
       <div class="col-9">
-        <div class="accordion m-4" id="accordionPanelGroup">
+        <div class="accordion m-4" id="eventAccordion">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="accordionHeader1">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                Totally not copied Accordion Item #1
+            <h2 class="accordion-header" id="eventHeaderOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#eventOne" aria-expanded="false" aria-controls="eventOne">
+                <div class="headerContent d-flex w-100">
+                  <span class="me-auto"><strong>Event</strong></span>
+                  <span class="pe-4">Date</span>
+                </div>
               </button>
             </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="accordionHeader1">
-              <div class="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="accordionHeader2">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                Totally not copied Accordion Item #2
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="accordionHeader2">
-              <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-              </div>
-            </div>
-          </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="accordionHeader3">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                Totally not copied Accordion Item #3
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="accordionHeader3" data-bs-parent="#accordionPanelsStayOpenExample">
-              <div class="accordion-body">
-                <strong>Well, well, well...</strong> It seems that this is the end of the accordion items. I guess this is a good place to take it easy. Honestly, some of these aria commands are pretty annoying to memerize, so hopefully I don't actually have to memorize these things.<br/><br/>
-                Also, just in case you didn't notice, when you open this accordion item, it collpases any other open accordion item. Only this item though.
+            <div id="eventOne" class="accordion-collapse collapse" aria-labelledby="eventHeaderOne">
+              <div class="accordion-body d-flex">
+                <span class="me-auto mw-75">Event Description</span>
+                <span class="pe-4 ps-4">Date</span>
+                <span class="">Status</span>
               </div>
             </div>
           </div>

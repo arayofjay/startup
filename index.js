@@ -15,11 +15,23 @@ class App {
 const app = new App();
 
 function loadGroups() {
-    console.table(localStorage.getItem("Group"));
+    console.table(localStorage.getItem("groups"));
+
+    let groups = [];
+
+    const allGroups = localStorage.getItem("groups");
+
+    if (allGroups) {
+        groups = JSON.parse(allGroups);
+    }
+
+    if (groups.length) {
+        
+    }
 }
 
 function loadEvents() {
-    console.table(localStorage.getItem("Event"));
+    console.table(localStorage.getItem("events"));
 }
 
 loadGroups();

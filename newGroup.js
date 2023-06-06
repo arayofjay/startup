@@ -10,7 +10,24 @@ function newGroup() {
       description: groupDescE1.value,
       password: groupPassE1.value
     }
-    localStorage.setItem("Group", JSON.stringify(Group));
+    
+    let groups = [];
+    const allgroups = localStorage.getItem("groups");
+
+    if (allgroups) {
+      groups = JSON.parse(allgroups);
+    }
+
+    groups = updategroups(Group, groups);
+
+    localStorage.setItem("groups", JSON.stringify(groups));
 
     window.location.href = "index.html";
+  }
+
+  function updategroups(group, groups) {
+
+    groups.push(group);
+
+    return groups;
   }
