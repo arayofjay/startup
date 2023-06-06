@@ -25,7 +25,7 @@ function loadGroups() {
         groups = JSON.parse(allGroups);
     }
 
-    const groupSelect = document.getElementById('groupSelect');
+    const groupSelectE1 = document.getElementById('groupSelect');
 
     if (groups.length) {
         for (const [i, group] of groups.entries()) {
@@ -33,8 +33,12 @@ function loadGroups() {
 
             groupNameOptE1.textContent = group.name;
             
-            groupSelect.appendChild(groupNameOptE1);
+            groupSelectE1.appendChild(groupNameOptE1);
         }
+    } else {
+        const allGroupsE1 = document.getElementById('allGroups');
+        groupSelectE1.removeChild(allGroupsE1);
+        groupSelectE1.innerHTML = '<option selected>-- No Groups --</option>';
     }
 }
 
@@ -44,3 +48,5 @@ function loadEvents() {
 
 loadGroups();
 loadEvents();
+
+// localStorage.clear();
